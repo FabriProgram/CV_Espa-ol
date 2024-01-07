@@ -1,0 +1,402 @@
+/* FUENTES IMPORTADAS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+/* CSS GENERAL */
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*---------------------------------- SECCION INICIO ------------------------------------ */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), 
+    url("img/backgroundCV.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 20px;
+}
+/* MENU LATERAL, HEADER, NAV-BAR */
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #027c94;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* CSS DEL FD */
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion header .logo .color{
+    color: #027c94;
+    font-family: "Yellowtail";
+}
+
+/* CSS BOTON MENU HAMBURGESA */
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: #202020;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+
+/* CSS DE INFO */
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    background-color: #202020;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: -10px;
+    background-color: #202020;
+}
+.inicio .contenido-seccion .info h3{
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-top: -10px;
+    background-color: #202020;
+}
+
+/* CSS PARA REDES */
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    font-size: 33px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #027c94;
+    border: 3px solid #027c94;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    background-color: #027c94;
+    color: #fff;
+    box-shadow: 0 0 20px #fff;
+}    
+
+/* SECCION FOTO */
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #027c94;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+}
+
+/*-- CSS TITULO SECCIONES --*/
+.titulo-seccion{
+    font-family: "Yellowtail";
+    font-size: 2.5rem;
+}
+
+/*-------------------------------------- SECCION SOBRE MI -------------------------------------- */
+/* CSS HEADER SOBRE MI */
+.sobremi{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobremi .contenido-seccion{
+    color: #027c94;
+    text-align: align;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+    color: #202020;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.sobremi .contenido-seccion .especial{
+    color: #027c94;
+    font-weight: bold;
+    margin-top: 15px
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+/* CSS PARA FILAS Y COLUMNAS SOBRE MI */
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col i{
+    color: #027c94;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #027c94;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+/*  ------------------------------------ SECCION HABILIDADES ------------------------------------ */
+/*-- CSS GENERAL E IMAGENES --*/
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/skillsbackground.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+    color: #fff;
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+/*-- CSS PARA FILAS Y COLUMNAS --*/
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 20%;
+    text-align: left;
+}
+.habilidades .contenido-seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+/*-- CSS DE LA BARRA DE HABILIDADES  --*/
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid #027c94;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+    background-color: #363636;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+/*-------------------------------------- SECCION RESUMEN -------------------------------------- */
+/*-- CSS GENERAL DE REUMEN --*/
+.resumen{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.resumen .contenido-seccion{
+    color: #027c94;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.resumen .contenido-seccion h3{
+    color: #202020;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+/*-- CSS DE LOS TITULOS DE LA SECCION --*/
+.resumen .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.resumen .contenido-seccion .info .col{
+    width: 45%;
+}
+.resumen .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: #027c94;
+    font-weight: bold;
+    border: 3px solid #027c94;
+    padding: 10px;
+}
+/*-- CSS DE LA TABLA --*/
+.resumen .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.resumen .contenido-seccion .info .col table .datos{
+    width: 22%;
+    border-bottom: 1px solid #bab9b9;
+}
+.resumen .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.resumen .contenido-seccion .info .col table h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.resumen .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+.resumen .contenido-seccion .info .col table .promedio{
+    display: block;
+    color: #c37510;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.resumen .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+/*-------------------------------------- SECCION CONTACTO -------------------------------------- */
+
+.contacto{
+    background-color: #202020;
+    padding: 20px 0 20px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #027c94;
+}
+.contacto .contenido-seccion .fila .col .info-contacto{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+    justify-content: align-items;
+}
+/*-------------------------------------- SECCION FOOTER -------------------------------------- */
+.header-footer{
+    background-color: #509dac;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    overflow: hidden;
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 20px;
+}
+.header-footer .contenedor-seccion{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+/*------------------------------------ SECCION RESPONSIVA -------------------------------------*/
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+        width: 50%;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        width: 100%;
+        justify-self: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
+    
