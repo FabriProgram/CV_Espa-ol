@@ -28,7 +28,7 @@ html{
 .inicio .contenido-seccion header{
     padding: 20px;
 }
-/* MENU LATERAL, HEADER, NAV-BAR */
+/* MENU LATERAL, NAV-BAR */
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
@@ -332,6 +332,15 @@ html{
 .contacto .contenido-seccion .fila .col{
     margin-top: 50px;
 }
+.contacto .contenido-seccion .fila .col i{
+    color: #027c94;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #027c94;
+    line-height: 36px;
+    border-radius: 50%;
+}
 .contacto .contenido-seccion .fila .col h2{
     color: #027c94;
 }
@@ -341,7 +350,7 @@ html{
     margin-bottom: 15px;
     justify-content: align-items;
 }
-/*-------------------------------------- SECCION FOOTER -------------------------------------- */
+/*-------------------------------------- SECCION HEADER-FOOTER -------------------------------------- */
 .header-footer{
     background-color: #509dac;
     padding: 10px 0 10px 0;
@@ -357,6 +366,29 @@ html{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
+}
+.header-footer .banderas{
+    margin:auto;
+    padding: auto;
+    width: 600px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-size-adjust: auto;;
+}
+.header-footer .banderas .item_ico{
+    height: 40px;
+    cursor: pointer;
+}
+.header-footer .banderas .item_banderas{
+    width: 40px;
+    height: 40px;
+
+}
+.header-footer .banderas .item_banderas .item_ico{
+    display: block;
+    cursor: pointer;
 }
 /*------------------------------------ SECCION RESPONSIVA -------------------------------------*/
 @media screen and (max-width:800px){

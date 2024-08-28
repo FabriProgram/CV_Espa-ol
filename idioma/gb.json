@@ -1,0 +1,70 @@
+{
+    "inicio":{
+        "menu1":"First look",
+        "menu2":"About me",
+        "menu3":"Skills",
+        "menu4":"Resume",
+        "menu5":"Contact",
+        "titulo":"IT PROFESSIONAL",
+        "actividad":"PROGRAMMER, FRONT-END, BACK-END"
+
+    },
+    "sobremi":{
+         "titulo":"About me",
+         "subtitulo":"Personal details",
+         "puesto":"Programmer",
+         "resumen":
+         "I'm a developer in constant growth of skills and knowledge.<br>to keep on growing i'm always looking my own achivments, discarding flaws on my doing.<br> Direct and simple communication. and empathy with my partners is essential for me.<br>It applies to all my relationships, whether it is work related or not.<br> In the work i search for resolving errors and avoid mistakes.",
+         "perfil":"Employee profile",
+         "detallePerfil":"Responsible, Proactive,<br>Respectful, and Employee.",
+         "ubicacion":"Location",
+         "intereses":"Interests",
+         "detalleIntereses":"Angular V17, Cryptocurrency,<br>Smart contracts."
+    },
+    "habilidades":{
+        "titulo":"My skills"
+    },
+    "resumen":{
+        "titulo":"Resume",
+        "subtitulo":"Education and experience",
+        "formaciones":"Education",
+        "formacion1":
+        "Introduction to programming in general and the paradigm of object oriented programming.<br>Exercises of programming with pseudocode",
+        "formacion1titulo":"Course<br>Object oriented programming",
+        "formacion1estado":"Approved",
+        "formacion2":
+        "Basic concepts of syntax, logic, algorithms, relations. Structure of the language. Check code.<br>Exercises in Java, implementation of good practices in writing code (indentation, order, separation by components).",
+        "formacion2titulo":"Course<br>Introduction to Java",
+        "formacion2estado":"Approved",
+        "formacion3":
+        "Front-end and back-end programming in Python. With the tools:<br>HTML, CSS, BOOSTRAP, FLEXBOX, FLASK, PHPMyAdmin, github, VSCode, SQL.<br>Exercise in solo and in group, post publishing web site.",
+        "formacion3titulo":"Course<br>Full stack Python",
+        "formacion3estado":"Approved",
+        "formacion4":"Front-end and back-end programming in JavaScript. With the tools:<br>HTML, CSS, BOOSTRAP, FLEXBOX, NodeJS, MySql, github, VSCode.<br>Creation of database, web applications with functions.",
+        "formacion4titulo":"Course<br> Full stack JavaScript",
+        "formacion4estado":"Approved",
+        "formacion5":"Services web using Javascript and Typescript, in Angular_V16.<br>As complementary tools, we learned how to work with:<br>Boostwatch, Postman, NodeJS, express, Postman, sequelize, relational databases.",
+        "formacion5titulo":"Course<br>Programation WEB",
+        "formacion5estado":"Approved",
+        "experiencias":"Experiences",
+        "experiencia1":
+        "Instalations, maintenance and reparations manager on alarms systems, monitoring security cameras, and acces controls.<br>Server administrator for security cameras servers, user master of:<br>Windows, Networking, license software, office packages.<br>travel work for maintenance and repairs on distant locations.<br>Planning work schedules for own labor work force and contractors.<br>Proefssional advice, budgets, indirect sales, and administrations duties over the work planed.",
+        "experiencia1titulo":"Technician Senior",
+        "experiencia2":
+        "Alarm system and CCTV installer.<br>schedules manager, customers support, and insums handling and budget ejecution.<br>Personnel management.",
+        "experiencia2titulo":"Technician installer",
+        "experiencia3":
+        "maintenance installations, repairs, alarms, and access control. Each system with its respective operating system.",
+        "experiencia3titulo":"Technician jr"
+    },
+    "contacto":{
+        "titulo":"Contact me",
+        "subtitulo":"Trough this channels",
+        "telefono":"Phone",
+        "whatsapp":"Whatsapp or phonecall"
+    },
+    "github":{
+        "codigoHeader":"Here you can see the code of this page",
+        "codigoFooter":"Remember, here you can see the code of this page"     
+    }
+}

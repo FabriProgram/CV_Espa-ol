@@ -12,8 +12,29 @@
     <body>
         <!-- SECCION HEADER -->
         <section class="header-footer" id="header-footer">
+            <div id="banderas" class="banderas">
+                <h>
+                    SELECCION DE IDIOMA
+                    <img class="item_ico" src="img/pointer.svg">
+                </h>
+                <div class="item_banderas" data-lenguaje="ar">
+                    <img class="item_ico" src="img/ar.svg">
+                </div>
+                <h>
+                    LENGUAGE SELECTION
+                    <img class="item_ico" src="img/pointer.svg">
+                </h>
+                <div class="item_banderas" data-lenguaje="gb">
+                    <img class="item_ico" src="img/gb.svg">
+                </div>
+            </div>
             <div class="contenido-seccion">
-                <a href="https://github.com/FabriProgram/CV_Espa-ol">acá podes ver el codigo de esta pagina<i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/FabriProgram/CV_Espa-ol" data-section="github" data-value="codigoHeader">
+                    acá podes ver el codigo de esta pagina
+                </a>
+                <a href="https://github.com/FabriProgram/CV_Espa-ol">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </div>
         </section>
         <!-- SECCION INICIO -->
@@ -23,12 +44,22 @@
                     <div class="nav-bar" onclick="mostrarOcultarMenu()">
                         <i class="fa-solid fa-bars-staggered"></i>
                     </div>
-                    <nav id="nav" class="nav">
-                        <a href="#inicio">Inicio</a>
-                        <a href="#sobremi">Sobre mí</a>
-                        <a href="#habilidades">Habilidades</a>
-                        <a href="#resumen">Resumen</a>
-                        <a href="#contacto">Contacto</a>
+                    <nav id="nav" class="nav" data-section="inicio">
+                        <a data-section="inicio" data-value="menu1" href="#inicio">
+                            Inicio
+                        </a>
+                        <a data-section="inicio" data-value="menu2"href="#sobremi">
+                            Sobre mí
+                        </a>
+                        <a data-section="inicio" data-value="menu3"href="#habilidades">
+                            Habilidades
+                        </a>
+                        <a data-section="inicio" data-value="menu4"href="#resumen">
+                            Resúmen
+                        </a>
+                        <a data-section="inicio" data-value="menu5"href="#contacto">
+                            Contacto
+                        </a>
                     </nav>
                     <div class="logo">
                         F<span class="color">D</span>
@@ -36,8 +67,12 @@
                 </header>
                 <div class="info">
                     <h1>FABRICIO DENUNCIO</h1>
-                    <h2>PROFESIONAL IT</h2>
-                    <h3>PROGRAMADOR, FRONTEND, BACKEND</h3>
+                    <h2 data-section="inicio" data-value="titulo">
+                        PROFESIONAL IT
+                    </h2>
+                    <h3 data-section="inicio" data-value="actividad">
+                        PROGRAMADOR, FRONTEND, BACKEND
+                    </h3>
                     <div class="redes">
                         <a href="https://github.com/FabriProgram"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/fabricio-denuncio-36bb127b/"><i class="fa-brands fa-linkedin"></i></a>
@@ -50,11 +85,18 @@
         <!--  SECCION SOBRE MI  -->
         <section class="sobremi" id="sobremi">
             <div class="contenido-seccion">
-                <h2 class="titulo-seccion">Sobre Mí</h2>
-                <h3>Detalles personales</h3>
+                <h2 class="titulo-seccion" data-section="sobremi" data-value="titulo">
+                    Sobre Mí
+                </h2>
+                <h3 data-section="sobremi" data-value="subtitulo">
+                    Detalles personales
+                </h3>
 
-                <p class="especial">Programador JR</p>
-                <p>Soy un programador en constante crecimiento de habilidades y conocimientos.<br>
+                <p class="especial" data-section="sobremi" data-value="puesto">
+                    Programador
+                </p>
+                <p data-section="sobremi" data-value="resumen">
+                    Soy un programador en constante crecimiento de habilidades y conocimientos.<br>
                 Busco mantenerme en ese crecimiento, sosteniendo los aciertos y descartando los errores.<br>
                 La comunicación clara y concreta, y la empatía con mis interlocutores es escencial para mí.<br>
                 Esto aplica a todas mis ralaciones interpersonales, sean laborales o no.<br>
@@ -66,18 +108,27 @@
                 <div class="fila">
                     <div class="col">
                         <i class="fa-solid fa-user"></i>
-                        <span class="titulo-detalle">Perfil empleado</span>
-                        <p>Responsable, Procativo,<br>Respetuoso, y Empático.</p>
+                        <span class="titulo-detalle" data-section="sobremi" data-value="perfil">
+                            Perfil empleado
+                        </span>
+                        <p data-section="sobremi" data-value="detallePerfil">
+                            Responsable, Procativo,<br>Respetuoso, y Empático.
+                        </p>
                     </div>
                     <div class="col">
                         <i class="fa-solid fa-location-pin"></i>
-                        <span class="titulo-detalle">Ubicación</span>
+                        <span class="titulo-detalle" data-section="sobremi" data-value="ubicacion">
+                            Ubicación
+                        </span>
                         <p>Parque Avelleneda, Buenos Aires, Argentina.</p>
                     </div>
                     <div class="col">
                         <i class="fa-solid fa-flag"></i>
-                        <span class="titulo-detalle">intereses</span>
-                        <p>Angular V17, Cryptocurrency,<br>contratos inteligentes.</p>
+                        <span class="titulo-detalle" data-section="sobremi" data-value="intereses">
+                            intereses</span>
+                        <p data-sction="sobremi" data-value="detalleIntereses">
+                            Angular V17, Cryptocurrency,<br>contratos inteligentes.
+                        </p>
                     </div>
                 </div>
             </div>        
@@ -85,7 +136,7 @@
         <!-- SECCION HABILIDADES -->
         <section class="habilidades" id="habilidades">
             <div class="contenido-seccion">
-                <h2 class="titulo-seccion">Mis habilidades</h2>
+                <h2 class="titulo-seccion" data-section="habilidades" data-value="titulo">Mis habilidades</h2>
                 <h3>front-end</h3>
                 <div class="fila">
                     <div class="col">
@@ -151,26 +202,34 @@
         <!-- SECCION RESUMEN -->
         <section class="resumen" id="resumen">
             <div class="contenido-seccion">
-                <h2 class="titulo-seccion">Resúmen</h2>
-                <h3>Mi preparación y experiencia</h3>
+                <h2 class="titulo-seccion" data-section="resumen" data-value="titulo">Resúmen</h2>
+                <h3 data-sction="resumen" data-value="subtitulo">
+                    Mi preparación y experiencia
+                </h3>
                 <div class="info">
                     <div class="col">
-                        <span class="titulo">Educación</span>
+                        <span class="titulo"data-section="resumen" data-value="formaciones">
+                            Educación
+                        </span>
                         <table>
                             <tr>
                                 <td class="datos">
                                     <h4>2021</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="formacion1">
                                     Introdución a la programación en general y al paradigma de la programacion orientada a objetos.<br>
                                     Ejercios de programacion con pseudocodigo
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h4>Curso<br>Programación Orientada a Objetos</h4>
+                                    <h4 data-section="resumen" data-value="formacion1titulo">
+                                        Curso<br>Programación Orientada a Objetos
+                                    </h4>
                                     <p>U.T.N.</p>
-                                    <span class="promedio">aprobado</span>
+                                    <span class="promedio" data-section="resumen" data-value="formacion1estado">
+                                        Aprobado
+                                    </span>
                                 </td>
                             </tr>
                         </table>
@@ -179,16 +238,20 @@
                                 <td class="datos">
                                     <h4>2021</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="formacion2">
                                     Conceptos básicos de sintáxis, lógica, algoritmos, relaciones. Estrucura del lenguaje. Comprobación de codigo.<br>
                                     Ejercios en Lenguaje Java, implementación de buenas prácticas en la escritura de codigo (indentacion, orden, separación por complementos).
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h4>Curso<br>Introducción a Java</h4>
+                                    <h4 data-section="resumen" data-value="formacion2titulo">
+                                        Curso<br>Introducción a Java
+                                    </h4>
                                     <p>U.T.N.</p>
-                                    <span class="promedio">aprobado</span>
+                                    <span class="promedio" data-section="resumen" data-value="formacion2estado">
+                                        Aprobado
+                                    </span>
                                 </td>
                             </tr>
                         </table>
@@ -197,7 +260,7 @@
                                 <td class="datos">
                                     <h4>2022</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="formacion3">
                                     Cursada de programación front-end y back-end en lenguaje Python. Con las herramientas:<br>
                                     HTML, CSS, BOOSTRAP, FLEXBOX, FLASK, PHPMyAdmin, github, VSCode, SQL.<br>
                                     Ejercitación en solitario y en grupo, posteo de sitio web.
@@ -205,9 +268,13 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h4>Curso<br>Full stack Python</h4>
+                                    <h4 data-section="resumen" data-value="formacion3titulo">
+                                        Curso<br>Full stack Python
+                                    </h4>
                                     <p>G.C.B.A.</p>
-                                    <span class="promedio">aprobado</span>
+                                    <span class="promedio" data-section="resumen" data-value="formacion3estado">
+                                        Aprobado
+                                    </span>
                                 </td>
                             </tr>
                         </table>
@@ -216,7 +283,7 @@
                                 <td class="datos">
                                     <h4>2023</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="formacion4">
                                     Cursada de programación front-end y back-end en lenguaje JavaScript. Con las herramientas:<br>
                                     HTML, CSS, BOOSTRAP, FLEXBOX, NodeJS, MySql, github, VSCode.<br>
                                     Creación de base de datos, aplicaciónes web con funcionalidades.
@@ -224,9 +291,13 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h4>Curso<br> Full stack JavaScript</h4>
+                                    <h4 data-section="resumen" data-value="formacion4titulo">
+                                        Curso<br> Full stack JavaScript
+                                    </h4>
                                     <p>G.C.B.A.</p>
-                                    <span class="promedio">aprobado</span>
+                                    <span class="promedio" data-sction="resumen" data-value="formacion4estado">
+                                        Aprobado
+                                    </span>
                                 </td>
                             </tr>
                         </table>
@@ -235,7 +306,7 @@
                                 <td class="datos">
                                     <h4>2023</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="formacion5">
                                     Construción de servicios web usando lenguajes Javascript y Typescript, en el framework Angular_V16.<br>
                                     Como herramientas complementarias se aprendió a trabajar con:<br>
                                     Boostwatch, Postman, NodeJS, express, Postman, sequelize, base de datos relacionales.<br>
@@ -245,21 +316,27 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h4>Curso<br>Programación WEB</h4>
+                                    <h4 data-section="resumen" data-value="formacion5titulo">
+                                        Curso<br>Programación WEB
+                                    </h4>
                                     <p>U.T.N.</p>
-                                    <span class="promedio">aprobado</span>
+                                    <span class="promedio" data-sction="resumen" data-value="formacion5estado">
+                                        Aprobado
+                                    </span>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <div class="col">
-                        <span class="titulo">Experiencias</span>
+                        <span class="titulo" data-section="resumen" data-value="experiencias">
+                            Experiencias
+                        </span>
                         <table>
                             <tr>
                                 <td class="datos">
                                     <h4>2018<br>-<br>2023</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="experiencia1">
                                    Encargado de instalaciónes, mantenimientos, y reparaciónes en sistemas de alarmas, monitoreo de cámaras de seguridad, y controles de acceso.<br>
                                    Administrador de los servers de monitoreo de cámaras, configuración y adminitrasción de:<br>windows, redes, software licenciado, paquete office, herramientas varias del sistema operativo.<br>
                                    Viajes al interior del país para cumplimiento de las tareas de mantenimiento, instalaciones, y reparaciones.<br>
@@ -270,7 +347,9 @@
                             <tr>
                                 <td>
                                     <h4>Global-Risk S.A.</h4>
-                                    <p>Técnico Senior</p>
+                                    <p data-section="resumen" data-value="experiencia1titulo">
+                                        Técnico Senior
+                                    </p>
                                 </td>
                             </tr>
                         </table>
@@ -279,7 +358,7 @@
                                 <td class="datos">
                                     <h4>2017<br>-<br>2018</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="experiencia2">
                                     Intalador de alarmas, y CCTV.<br>
                                     Administracion de agenda propia, coordinación con clientes, compra de insumos, manejo de recursos y caja para trabajos.<br>
                                     Administración de personal a cargo.
@@ -288,7 +367,9 @@
                             <tr>
                                 <td>
                                     <h4>STOPCAR</h4>
-                                    <p>Tecnico instalador</p>    
+                                    <p data-section="resumen" data-value="experiencia2titulo">
+                                        Tecnico instalador
+                                    </p>    
                                 </td>
                             </tr>
                         </table>
@@ -297,14 +378,16 @@
                                 <td class="datos">
                                     <h4>2015<br>-<br>2017</h4>
                                 </td>
-                                <td rowspan="2" class="descripcion">
+                                <td rowspan="2" class="descripcion" data-section="resumen" data-value="experiencia3">
                                     Instalaciones, mantenimiento, y reparaciones de cámaras, alarmas, y control de acceso. Cada sistema con su respectivo sistema operativo. 
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <h4>SINCRO</h4>
-                                    <p>Tecnico jr</p>
+                                    <p data-section="resumen" data-value="experiencia3titulo">
+                                        Tecnico jr
+                                    </p>
                                 </td>
                             </tr>
                         </table>
@@ -314,14 +397,19 @@
         <!-- SECCION CONTACTO -->
         <section class="contacto" id="contacto">
             <div class="contenido-seccion">
-                <h2 class="titulo-seccion">Contacto</h2>
-                <h3>Escribime por estas vías</h3>
+                <h2 class="titulo-seccion" data-section="contacto" data-value="titulo">
+                    Contacto
+                </h2>
+                <h3 data-section="contacto" data-value="subtitulo">
+                    Escribime por estas vías
+                </h3>
                 <div class="fila">
                     <div class="col">
-                        <h2>
-                            <i class="fa-brands fa-whatsapp"></i> Teléfono
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h2 data-section="contacto" data-value="telefono">
+                            Teléfono
                         </h2>
-                        <p>
+                        <p data-section="contacto" data-value="whatsapp">
                             al whatsapp o llamadas
                         </p>
                         <span class="info-contacto">
@@ -334,18 +422,24 @@
                         </span>
                     </div>
                     <div class="col">
+                        <i class="fa-solid fa-inbox"></i></i>
                         <h2>
-                            <i class="fa-solid fa-inbox"></i></i> Mail
+                             Mail
                         </h2>
                         <span class="info-contacto">denunciofabricio@gmail.com</span>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- SECCION FOOTER -->
+        <!-- SECCION FOOTER --><!--REVISAR-->
         <section class="header-footer" id="header-footer">
             <div class="contenido-seccion">
-                <a href="https://github.com/FabriProgram/CV_Espa-ol">Te recuerdo, acá podes ver el codigo de esta pagina<i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/FabriProgram/CV_Espa-ol" data-section="github" data-value="codigoFooter">
+                    Te recuerdo, acá podes ver el codigo de esta pagina
+                </a>
+                <a href="https://github.com/FabriProgram/CV_Espa-ol">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </div>
         </section>
         <script src="ScriptCV.js"></script>

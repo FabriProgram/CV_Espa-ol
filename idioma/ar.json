@@ -1,0 +1,73 @@
+{
+    "inicio":{
+        "menu1":"Inicio",
+        "menu2":"Sobre mí",
+        "menu3":"Habilidades",
+        "menu4":"Resúmen",
+        "menu5":"Contacto",
+        "titulo":"PROFESIONAL IT",
+        "actividad":"PROGRMADOR, FRONT-END, BACK-END"
+    },
+    "sobremi":{
+         "titulo":"Sobre Mí",
+         "subtitulo":"Detalles personales",
+         "puesto":"Programador",
+         "resumen":
+         "Soy un programador en constante crecimiento de habilidades y conocimientos.<br>Buscó mantenerme en ese crecimiento, sosteniendo los aciertos y descartando los errores.<br>La comunicación clara y concreta, y la empatía con mis interlocutores es escencial para mí.<br>Esto aplica a todas mis ralaciones interpersonales, sean laborales o no.<br>En lo laboral busco ser resolutivo, y prefiero no lidiar dos veces con el mismo problema.<br>Respetuoso de la tarea a realizar,con proactividad hacia los desafios nuevos,<br>y conciencia con las responsabilidades asumidas." ,
+         "perfil":"Perfil empleado",
+         "detallePerfil":"Responsable, Procativo,<br>Respetuoso, y Empreso.",
+         "ubicacion":"Ubicación",
+         "intereses":"Intereses",
+         "detalleIntereses":"Angular V17, Cryptocurrency,<br>contratos inteligentes."
+    },
+    "habilidades":{
+        "titulo":"Mis habilidades"
+    },
+    "resumen":{
+        "titulo":"Resúmen",
+        "subtitulo":"Mi preparación y experiencia",
+        "formaciones":"Educación",
+        "formacion1":
+        "Introdución a la programación en general y al paradigma de la programacion orientada a objetos.<br>Ejercios de programacion con pseudocodigo",
+        "formacion1titulo":
+        "Curso<br>Programación Orientada a Objetos",
+        "formacion1estado":"Aprobado",
+        "formacion2":
+        "Conceptos básicos de sintáxis, lógica, algoritmos, relaciones. Estrucura del lenguaje. Comprobación de codigo.<br>Ejercios en Lenguaje Java, implementación de buenas prácticas en la escritura de codigo (indentacion, orden, separación por complementos).",
+        "formacion2titulo":"Curso<br>Introducción a Java",
+        "formacion2estado":"Aprobado",
+        "formacion3":
+        "Cursada de programación front-end y back-end en lenguaje Python. Con las herramientas:<br>HTML, CSS, BOOSTRAP, FLEXBOX, FLASK, PHPMyAdmin, github, VSCode, SQL.<br>Ejercitación en solitario y en grupo, posteo de sitio web.",
+        "formacion3titulo":"Curso<br>Full stack Python",
+        "formacion3estado":"Aprobado",
+        "formacion4":
+        "Cursada de programación front-end y back-end en lenguaje JavaScript. Con las herramientas:<br>HTML, CSS, BOOSTRAP, FLEXBOX, NodeJS, MySql, github, VSCode.<br>Creación de base de datos, aplicaciónes web con funcionalidades.",
+        "formacion4titulo":"Curso<br> Full stack JavaScript",
+        "formacion4estado":"Aprobado",
+        "formacion5":
+        " Construción de servicios web usando lenguajes Javascript y Typescript, en el framework Angular_V16.<br>Como herramientas complementarias se aprendió a trabajar con:<br>Boostwatch, Postman, NodeJS, express, Postman, sequelize, base de datos relacionales.<br>Durante esta cursada se trabajó en grupos formados por los estudiantes, los cuales elejian un lider del grupo para ordenar los trabajos y asignar tareas.<br>También el lider se encargaba de administar el repositorio de github que usabamos para compartir código.",
+        "formacion5titulo":"Curso<br>Programación WEB",
+        "formacion5estado":"Aprobado",
+        "experiencias":"Experiencias",
+        "experiencia1":
+        "Encargado de instalaciónes, mantenimientos, y reparaciónes en sistemas de alarmas, monitoreo de cámaras de seguridad, y controles de acceso.<br>Administrador de los servers de monitoreo de cámaras, configuración y adminitrasción de:<br>windows, redes, software licenciado, paquete office, herramientas varias del sistema operativo.<br>Viajes al interior del país para cumplimiento de las tareas de mantenimiento, instalaciones, y reparaciones.<br>Organizar cronogramas de trabajo, coordinando recursos humanos propios y tercerizados.<br>Asesorias, presupuestos, ventas indirectas, y en menor medida tareas administrativas sobre los mantenimientos",
+        "experiencia1titulo":"Técnico Senior",
+        "experiencia2":
+        "Intalador de alarmas, y CCTV.<br>Administracion de agenda propia, coordinación con clientes, compra de insumos, manejo de recursos y caja para trabajos.<br>Administración de personal a cargo.",
+        "experiencia2titulo":"Tecnico instalador",
+        "experiencia3":
+        "Instalaciones, mantenimiento, y reparaciones de cámaras, alarmas, y control de acceso. Cada sistema con su respectivo sistema operativo.",
+        "experiencia3titulo":"Tecnico jr"
+    },
+    "contacto":{
+        "titulo":"Contacto",
+        "subtitulo":"Escribime por estas vías",
+        "telefono":"Teléfono",
+        "whatsapp":"al whatsapp o llamadas"
+    },
+    "github":{
+        "codigoHeader":"Acá podés ver el codigo de esta pagina",
+        "codigoFooter":"Te recuerdo, acá podes ver el codigo de esta pagina"
+    }
+
+}

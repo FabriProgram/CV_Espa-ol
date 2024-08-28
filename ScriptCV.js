@@ -92,3 +92,19 @@ window.onscroll = function(){
     efectoHabilidades();
 }
 
+//PAQUETE IDIOMA
+const elementoBandera = document.getElementById("banderas");
+const seleccionIdiomas = document.querySelectorAll("[data-section]");
+const cambiarIdioma = async (banderas) => {
+    const requestJson = await fetch(`idioma/${banderas}.json`);
+    const text = await requestJson.json();
+    for (const seleccionIdioma of seleccionIdiomas) {
+        const section = seleccionIdioma.dataset.section;
+        const value = seleccionIdioma.dataset.value;
+        seleccionIdioma.innerHTML = text[section][value];
+    }
+};
+elementoBandera.addEventListener("click", (e) => {
+    cambiarIdioma(e.target.parentElement.dataset.lenguaje);
+});
+
